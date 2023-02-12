@@ -1,0 +1,50 @@
+.text-orange { color: #FF4800 }
+.navbar-brand:hover { color: #FF4800}
+.bg-orange {background-color: #FF4800}
+.bg-orange:hover {background-color: #D93D00}
+.nav-link:hover {
+    background-color: #FF4800;
+    color: white;
+}
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.banner-head {
+    background-image: url("../images/header.jpg");
+    min-height: 500px;
+}
+
+.card-box {
+    margin-top: 150px;
+    padding-bottom: 120px;
+}
+
+/*.banner-head:after {*/
+/*    content: '';*/
+/*    background-color: rgba(0,0,0, .6);*/
+/*    position: absolute;*/
+/*    top: 110px;*/
+/*    height: 500px;*/
+/*    width: 100%;*/
+/*}*/
+
+.contact-form{
+    padding:100px 30px 60px 30px;
+}
+.hover-content{
+    display: none;
+    height: 100%;
+
+}
+.team-card:hover .hover-content{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+.social{
+    justify-content: center;
+    padding-left:60px;
+    padding-top:20px;
+}
